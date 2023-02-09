@@ -11,7 +11,7 @@ const posts = [
   {
     id: 1,
     author: {
-      avatarUr: 'https://github.com/Josirocha.png',
+      avatarUrl: 'https://github.com/Josirocha.png',
       name: 'Josiane Rocha',
       role: 'Desenvolvedora Web'
     },
@@ -26,7 +26,7 @@ const posts = [
   {
     id: 2,
     author: {
-      avatarUr: 'https://github.com/GuilhermeSnts.png',
+      avatarUrl: 'https://github.com/GuilhermeSnts.png',
       name: 'Guilherme Santos',
       role: 'Desenvolvedora Senior'
     },
