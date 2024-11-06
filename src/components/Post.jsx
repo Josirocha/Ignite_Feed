@@ -2,7 +2,7 @@ import { format, formatDistanceToNow } from 'date-fns';
 import ptBr from 'date-fns/locale/pt-BR'
 import { useState } from 'react';
 
-import { Avatar } from "./Avatar";
+import { Avatar} from "./Avatar/Avatar";
 import { Comment } from "./Comment";
 import styles from "./Post.module.css";
 

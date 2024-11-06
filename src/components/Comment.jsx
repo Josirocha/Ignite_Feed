@@ -1,6 +1,6 @@
 import { ThumbsUp, Trash } from 'phosphor-react'
 import styles from './Comment.module.css'
-import { Avatar } from './Avatar'
+import { Avatar } from './Avatar/Avatar'
 import { useState } from 'react'
 
 export function Comment({ content, onDeleteComment }) {
