@@ -8,11 +8,13 @@ const [likeCount, setLikeCount] = useState(0);
 
 
     function handleDeleteComment() {
-        onDeleteComment(content)
+        onDeleteComment(content);
     }
 
     function hanndleLikeComment(){
-        setLikeCount(likeCount + 1)
+        setLikeCount((state) =>{
+            return state + 1
+        });
     }
 
     return (
